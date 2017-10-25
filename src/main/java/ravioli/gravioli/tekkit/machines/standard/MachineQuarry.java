@@ -354,7 +354,7 @@ public class MachineQuarry extends MachineWithInventory {
         recipe.shape("IDI", "IPI", "IDI");
         recipe.setIngredient('I', Material.IRON_BLOCK);
         recipe.setIngredient('D', Material.DIAMOND);
-        recipe.setIngredient('P', Material.IRON_PICKAXE);
+        recipe.setIngredient('P', Material.DIAMOND_PICKAXE);
 
         return recipe;
     }
